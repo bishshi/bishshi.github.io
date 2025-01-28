@@ -1,0 +1,76 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script id="jqbb" src="./js/jquery.min.js"></script>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      user-select: none;
+      margin: 0;
+    }
+
+    .city {
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+      z-index: 100;
+    }
+
+    .city img {
+      width: 100%;
+    }
+
+    audio {
+      opacity: 0;
+    }
+
+    .shape {
+      z-index: 9999 !important;
+    }
+  </style>
+  <title>2025新年快乐</title>
+</head>
+
+<body onselectstart="return false">
+  <div class="star comet"></div>
+  <script src="./js/index.js"></script>
+  <!--烟花部分-->
+  <canvas id="cas" style="background-color: rgba(0, 5, 24, 1); z-index: 9999">
+    浏览器不支持canvas
+  </canvas>
+  <div class="city">
+    <img src="./img/city.png" alt="" />
+  </div>
+  <img src="./img/moon.png" alt="" id="moon" style="visibility: hidden" />
+  <div style="display: none">
+    <div class="shape">2025🏮身体健康💘</div>
+    <div class="shape">2025🏮寿比南山💘</div>
+    <div class="shape">2025🏮平安喜乐💘</div>
+    <div class="shape">2025🏮平安喜乐💘</div>
+    <div class="shape">2025🏮好运连连💘</div>
+    <div class="shape">2025🏮蒸蒸日上💘</div>
+    <div class="shape">2025🏮心想事成💘</div>
+    <div class="shape">2025🏮事业腾飞💘</div>
+    <div class="shape">2025🏮财源广进💘</div>
+    <div class="shape">2025🏮吉星高照💘</div>
+    <div class="shape">2025🏮阖家幸福💘</div>
+    <div class="shape">2025🏮步步高升💘</div>
+    <div class="shape">2025🏮年年有余💘</div>
+    <div class="shape">2025🏮幸福美满💘</div>
+    <div class="shape">2025🏮福如东海💘</div>
+    <div class="shape">2025💘💘💘🏮🏮🏮</div>
+  </div>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/fire.js"></script>
+  <script src="./js/talk.js"></script>
+</body>
+
+</html>
